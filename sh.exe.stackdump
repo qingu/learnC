@@ -1,0 +1,11 @@
+MSYS-1.0.12 Build:2011-07-20 17:52
+Exception: STATUS_ACCESS_VIOLATION at eip=7C937E9C
+eax=00000000 ebx=FFFFFFFF ecx=00BC0000 edx=0022EF94 esi=00000003 edi=00000000
+ebp=0022F2C0 esp=0022F00C program=C:\Documents and Settings\cams\Local Settings\Application Data\GitHub\PortableGit_656cc1ef6d04f06ddf8b2f5bedbac921caed3b62\bin\sh.exe
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args
+0022F2C0  7C937E9C  (0022F30C, 7FFDDBF8, 00362648, 7C935BBD)
+0022F420  7C935B58  (0036221E, 7C99EF00, 7C935F0C, 7C99EF00)
+0022F6DC  7C935ED5  (0022F858, 00000000, 0022F8B8, 00000000)
+End of stack trace
